@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/framework/mediatek-res.apk:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-res.apk \
     vendor/xiaomi/dandelion/proprietary/lib/libMcRegistry.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libMcRegistry.so \
     vendor/xiaomi/dandelion/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
+    vendor/xiaomi/dandelion/proprietary/lib/libgui_stock.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgui_stock.so \
     vendor/xiaomi/dandelion/proprietary/lib/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma.so \
     vendor/xiaomi/dandelion/proprietary/lib/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_adapt.so \
     vendor/xiaomi/dandelion/proprietary/lib/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsma_rtp.so \
@@ -48,7 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/xiaomi/dandelion/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
     vendor/xiaomi/dandelion/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/dandelion/proprietary/lib/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.trustonic.teeregistry@1.0.so
+    vendor/xiaomi/dandelion/proprietary/lib/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.trustonic.teeregistry@1.0.so \
+    vendor/xiaomi/dandelion/proprietary/lib/vndk-29/libgui_stock.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-29/libgui_stock.so
 
 PRODUCT_PACKAGES += \
     ImsService \
