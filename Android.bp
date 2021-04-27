@@ -66,24 +66,6 @@ dex_import {
 }
 
 dex_import {
-	name: "mediatek-ims-extension-plugin",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
-}
-
-dex_import {
-	name: "mediatek-ims-legacy",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/mediatek-ims-legacy.jar"],
-}
-
-dex_import {
-	name: "mediatek-ims-wwop-common",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/mediatek-ims-wwop-common.jar"],
-}
-
-dex_import {
 	name: "mediatek-telecom-common",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/mediatek-telecom-common.jar"],

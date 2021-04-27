@@ -55,7 +55,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
     vendor/xiaomi/dandelion/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/dandelion/proprietary/lib/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.trustonic.teeregistry@1.0.so \
-    vendor/xiaomi/dandelion/proprietary/lib/vndk-29/libgui_stock.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-29/libgui_stock.so
+    vendor/xiaomi/dandelion/proprietary/lib/vndk-29/libgui_stock.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-29/libgui_stock.so \
+    vendor/xiaomi/dandelion/proprietary/framework/mediatek-wfo-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-wfo-legacy.jar \
+    vendor/xiaomi/dandelion/proprietary/framework/mediatek-ims-wwop-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-wwop-common.jar \
+    vendor/xiaomi/dandelion/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
+    vendor/xiaomi/dandelion/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar
 
 PRODUCT_PACKAGES += \
     ImsService \
@@ -64,9 +68,6 @@ PRODUCT_PACKAGES += \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
-    mediatek-ims-extension-plugin \
-    mediatek-ims-legacy \
-    mediatek-ims-wwop-common \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common
